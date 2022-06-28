@@ -1,0 +1,53 @@
+.loadingDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+}
+.loadingDiv p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* login form */
+.loginContainer{
+    /* display: flex;
+    flex-direction: column; */
+    /* height: 50vh;
+    margin: 25vh 10px; */
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 100px;
+    
+    
+}
+.loginContainer .error {
+    color: rgb(248, 93, 106);
+    margin: 5px auto;
+}
+.loginInput{
+    height: 50px;
+    width: calc(100% - 10px);
+    display: block;
+    margin: 20px 0px;
+    font-size: 14px;
+    border-width: 1px;
+
+}
+.loginInput:focus{
+        outline-style: none;
+        outline: none;
+        box-shadow: none;
+        border-color: rgb(39, 14, 226);
+        border-width: 1px;
+}
+.loginContainer button {
+    display: block;
+    width: 50%;
+    height: 50px;
+    margin: 30px auto;
+    color: green;
+    background-color: #fff;
+    font-size: 16px;
+    
+}
